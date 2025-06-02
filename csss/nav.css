@@ -1,0 +1,103 @@
+nav{
+    display: flex;
+    width: 100%;
+    padding: 15px  0;
+    /* position: sticky; */
+    top: 0;
+    align-items: center;
+    justify-content: center;
+    background-color: #075dfd;
+}
+
+.nav_section{
+    max-width:  2000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+
+
+.pages{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.pages a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+.nav_buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.nav_menu{
+    display: none;
+}
+
+
+.menu_content{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    top: 60px;
+    color: black;
+}
+
+.menu_cont{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 90%;
+    padding: 30px 0;
+}
+
+.pages_menu{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: black;
+}
+
+.pages_menu a{
+    /* color: white; */
+    text-decoration: none;
+    font-size: 1.1em;
+    text-align: start;
+}
+
+.nav_buttons_cont{
+    display: flex;
+    gap: 10px;
+}
+.nav_menu:focus{
+    outline: none;
+}
+
+.nav_menu_cancel{
+    display: none;
+}
+
+@media (max-width: 1230px) {
+    .nav_menu{
+        display: block;
+    }
+
+    .nav_buttons{
+        display: none;
+    }
+
+    .pages{
+        display: none;
+    }
+}

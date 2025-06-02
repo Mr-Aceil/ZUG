@@ -1,0 +1,177 @@
+@font-face {
+    font-family: 'Satoshi';
+    src: url('../Font/Poppins-Light.ttf')format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    font-family: 'Satoshi';
+    margin: 0;
+    padding: 0;
+    color: inherit;
+}
+
+body{
+    background-color: #eaf1ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.blue_button{
+    display: flex;
+    padding: 12px 30px;
+    background-color: #0404db;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    color: white;
+    font-size: 1em;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition: 0.3s;
+    border-radius: 200px;
+}
+
+.blue_button:hover{
+    background-color: #000075;
+}
+
+
+.t_button{
+    display: flex;
+    padding: 12px 30px;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    color: white;
+    font-size: 1em;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition: 0.3s;
+    border-radius: 200px;
+}
+
+.t_button:hover{
+    background-color: #ffffff38;
+}
+
+.t_buttonb{
+    display: flex;
+    padding: 12px 30px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    font-size: 1em;
+    align-items: center;
+    justify-content: center;
+    border-radius: 200px;
+    gap: 10px;
+    transition: 0.3s;
+}
+
+.t_buttonb:hover{
+    background-color: #ffffff38;
+}
+
+.t_buttonbvg{
+    display: flex;
+    padding: 12px ;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    font-size: 1em;
+    align-items: center;
+    justify-content: center;
+    border-radius: 200px;
+    gap: 10px;
+    transition: 0.3s;
+}
+
+.t_buttonbvg:hover{
+    background-color: #ffffff38;
+}
+
+.t_black_button{
+    display: flex;
+    padding: 12px ;
+    background-color: transparent;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    color: white;
+    font-size: 1em;
+    align-items: center;
+    justify-content: center;
+    border-radius: 200px;
+    gap: 10px;
+    transition: 0.3s;
+}
+
+.t_black_button:hover{
+    background-color: #a0a0a038;
+}
+
+.out_section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.inner_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+    width: 90%;
+    max-width: 1200px;
+    gap: 50px;
+    color: white;
+    /* background-color: pink; */
+}
+
+h1{
+    font-size: 4em;
+}
+
+p{
+    font-size: 1.1em;
+}
+
+h2{
+    font-size: clamp(1.5em,5vw,2.7em);
+    text-align: center;
+}
+
+.pthin{
+    color: #d8d8d8;
+}
+
+.pthinb{
+    text-align: center;
+    color: #4b4b4b;
+}
+
+h3{
+    text-align: center;
+}
+
+.hide{
+    display: none;
+}
+
+.visi{
+    visibility: hidden;
+}
+
+@media (max-width: 1300px) {
+    h1{
+        font-size:  clamp(1.8em, 5vw, 4em);
+    }
+}
