@@ -358,6 +358,12 @@
 
 }
 
+@media (max-width: 660px) {
+    .section1_in{
+        padding-top: 80px;
+    }
+}
+
 @media (max-width: 460px) {
     .section1_img{
         height: 250px;
